@@ -4,5 +4,11 @@
     Layout = "~/Views/Shared/Layout.cshtml";
 }
 
-<h2>Index</h2>
+@Html.Action("FeaturedPost","Blog")
+
+@Html.Action("BlogList","Blog")
+
+@Html.Action("OtherFeaturedPost","Blog")
+
+@Html.Action("MailSubscribe","Blog")
 
